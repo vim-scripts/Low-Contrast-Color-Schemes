@@ -16,6 +16,11 @@ hi Normal guibg=black guifg=grey75
 hi Cursor guibg=grey75
 hi NonText guibg=grey10 guifg=yellow4
 
+if version >= 700
+    hi CursorLine   guibg=grey20
+    hi CursorColumn guibg=grey20
+endif
+
 " Brown / Tan
 "hi Statement guifg=wheat4
 "hi Statement guifg=grey75 gui=bold

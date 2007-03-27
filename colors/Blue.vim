@@ -12,5 +12,11 @@ hi NonText guibg=#000038
 "hi NonText guibg=#000030
 hi Visual guifg=grey40
 
+if version >= 700
+    " Just a tad off of bg
+    hi CursorLine   guibg=#222260
+    hi CursorColumn guibg=#222260
+endif
+
 " Experimental:
 hi Cursor guibg=yellow guifg=bg

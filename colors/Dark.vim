@@ -14,9 +14,18 @@ let g:colors_name = "Dark"
 
 hi Normal guibg=grey20 guifg=GhostWhite
 hi NonText guibg=grey15 guifg=yellow3
+"hi Normal guibg=grey30 guifg=GhostWhite
+"hi NonText guibg=grey20 guifg=yellow3
 "hi Cursor guibg=GhostWhite
 "hi Cursor guibg=red guifg=white
 hi Cursor guibg=green2 guifg=black
+
+if version >= 700
+    " Just a tad off of bg
+    hi CursorLine   guibg=grey25
+    hi CursorColumn guibg=grey25
+endif
+
 
 hi Statement  guifg=tan
 hi Constant   guifg=#FF7070
@@ -37,6 +46,7 @@ hi PreProc guifg=orange2
 
 hi link SpecialKey Comment
 hi link Directory  Comment
+hi! link MatchParen Search
 
 "
 " Colors not part of the original set:

@@ -10,3 +10,9 @@ hi NonText guibg=#400000
 " Experimental:
 hi Cursor guibg=green guifg=black
 
+if version >= 700
+    " Just a tad off of bg
+    hi CursorLine   guibg=#602222
+    hi CursorColumn guibg=#602222
+endif
+

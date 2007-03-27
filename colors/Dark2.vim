@@ -22,6 +22,12 @@ hi NonText guibg=grey10  guifg=yellow3
 hi Folded guifg=grey90 guibg=grey45
 
 
+if version >= 700
+    " Just a tad off of bg
+    hi CursorLine   guibg=grey15
+    hi CursorColumn guibg=grey15
+endif
+
 
 
 "
